@@ -1,0 +1,17 @@
+<html>
+	<head>
+		<script LANGUAGE="JavaScript1.2" src="js/ajax.js"></script>
+	</head>
+	<body>
+		<form name="myform" action="response.html">
+		<input type="text" name="name"/>
+		<input type="button" value="AjaxSendQuery" onclick="ajaxSubmit(myform,'callBackFunction');"/>
+		</form>
+		<script>
+		 function callBackFunction(output)
+		 {
+			alert(output);
+		 }
+		</script>
+	</body>
+</html>

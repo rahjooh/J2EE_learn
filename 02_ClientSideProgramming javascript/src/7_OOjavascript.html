@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    var MyClass = new Object();
+        MyClass.name;
+        MyClass.family;
+        MyClass.doc = window;
+        MyClass.execute1 = function (str1,str2) {
+            alert(str1+ "  "+ this.name+"  "+str2+"  "+this.family);
+        }
+
+    MyClass.name = "Amirsam"
+    MyClass.doc.alert("salam")
+    MyClass.family = "bahador"
+    MyClass.execute1(" hello ", " bye ")
+
+</script>
+</body>
+</html>
